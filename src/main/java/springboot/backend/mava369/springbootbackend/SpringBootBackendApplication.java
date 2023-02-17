@@ -2,12 +2,10 @@ package springboot.backend.mava369.springbootbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
+@SpringBootApplication()
 public class SpringBootBackendApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootBackendApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootBackendApplication.class, args);
+    }
 
 }
